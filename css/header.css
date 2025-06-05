@@ -1,0 +1,41 @@
+/* header.css */
+#header {
+  position: relative;
+  padding-top: 10px;
+  background-image: url(https://i.imgur.com/1o29MI6.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+}
+
+#header-bk {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#img-header {
+  position: relative;
+  background-image: url(https://i.imgur.com/1o29MI6.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img-cabecalho {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  color: var(--branco);
+  padding: 60px 20px;
+  background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0));
+}
+
+header h1 {
+  color: var(--branco);
+  text-shadow: 1px 1px 3px #00000088;
+  text-align: center;
+  margin-left: 50px;
+}

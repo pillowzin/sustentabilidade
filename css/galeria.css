@@ -1,0 +1,50 @@
+/* galeria.css */
+.galeria-imagens {
+  padding-top: 10px;
+  margin: 20px auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.bloco-imagem {
+  background-color: var(--creme);
+  border: 2px solid var(--marrom-claro);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 8px #00000033;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.bloco-imagem img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.bloco-imagem:hover{
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+/* Modal do mapa */
+#mapModal {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background: #fff;
+  border: 2px solid #000;
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#mapModal button {
+  float: center;
+}

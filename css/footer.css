@@ -1,0 +1,16 @@
+/* footer.css */
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--verde-escuro);
+  color: var(--branco);
+}
+
+.container-footer p {
+  margin: 4px 10px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+

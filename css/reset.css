@@ -1,0 +1,29 @@
+/* reset.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: var(--verde-fundo);
+  color: var(--preto);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Variáveis globais */
+:root {
+  --verde-fundo: #e8f5e9;
+  --verde-escuro: #2e7d32;
+  --creme: #fffde7;
+  --marrom-claro: #8d6e63;
+  --marrom-texto: #5d4037;
+  --branco: #ffffff;
+  --cinza: #eeeeee;
+  --preto: #1b1b1b;
+}

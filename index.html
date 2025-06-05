@@ -3,7 +3,12 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="css/button.css">
+	<script src="js/index.js"></script>
 	<title>Sustentabilidade</title>
 </head>
 <body>
@@ -11,12 +16,13 @@
 	<header id="header">
 		<img id="header-bk" src="https://i.imgur.com/1o29MI6.jpeg" />
 		<div id="cabecalho">
-			<h2>Sustentabilidade: Resíduos Sólidos e Destruição de Ecossistemas</h2>
+			<h1>Sustentabilidade</h1>
 		</div>
 	</header>
 
 	<nav>
-		<button onclick="scrollToSection('terceiros')">Terceiros</button>
+		<button onclick="scrollToSection('terceiros')" style="border: 0px; font-size: 14px;">Terceiros</button>
+		<a href="images.html" class="botao-link" style="font-style: none; width: 20%;">Página das Imagens</a>
 	</nav>
 
 	<main>
@@ -57,7 +63,7 @@
 			</div>
 		</section>
 
-		<h3 id="terceiros" style="text-align: center;">Sites de Terceiros</h3>
+		<h3 id="terceiros" style="justify-self: center; text-align: center; color: var(--marrom-texto); background-color: var(--creme); width: 300px; border-radius: 10px; font-size: 18px">Sites de Terceiros</h3>
 		<div class="botoes-links">
 		    <a href="https://www.greenpeace.org/brasil/" class="botao-link">GreenPeace</a>
 		    <a href="https://inbs.com.br/" class="botao-link">INBS</a>
@@ -68,7 +74,7 @@
 
 	<footer>
 		<section class="container-footer">
-			<a href="images.html" class="btn-footer">Página das Imagens</a>
+
 			<div>
 				<p>2025 - Professores: Mariano, Renata, Jorge, Mateus</p>
 				<p>Design: Pedro Cristian, Anderson Bonierg</p>
@@ -78,7 +84,6 @@
 		</section>
 	</footer>
 
-	<script src="index.js"></script>
 
 </body>
 </html>
